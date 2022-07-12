@@ -1,0 +1,14 @@
+{
+  "@id": "dtmi:com:willowinc:AlarmState;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Alarm State"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:BinaryState;1"
+  ],
+  "contents": [
+
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

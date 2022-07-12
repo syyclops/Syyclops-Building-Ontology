@@ -1,0 +1,14 @@
+{
+  "@id": "dtmi:com:willowinc:BinarySensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Binary Sensor"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:StateSensor;1"
+  ],
+  "contents": [
+
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
