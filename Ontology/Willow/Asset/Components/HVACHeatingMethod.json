@@ -1,0 +1,34 @@
+{
+  "@id": "dtmi:com:willowinc:HVACHeatingMethod;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Heating Method"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:AssetComponent;1",
+    "dtmi:digitaltwins:rec_3_3:asset:HVACHeatingMethod;1"
+  ],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "rows",
+      "displayName": {
+        "en": "Rows"
+      },
+      "writable": true,
+      "schema": "integer",
+      "comment": "Coil row configuration"
+    },
+    {
+      "@type": "Property",
+      "name": "finsPerInch",
+      "displayName": {
+        "en": "Fins per Inch"
+      },
+      "writable": true,
+      "schema": "integer",
+      "comment": "Fins per inch"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

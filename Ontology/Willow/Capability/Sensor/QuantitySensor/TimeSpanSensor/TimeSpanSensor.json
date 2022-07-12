@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:com:willowinc:TimeSpanSensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Time Span Sensor"
+  },
+  "description": {
+    "en": "A Time Span Sensor is a duration that spans two points in time."
+  },
+  "extends" : [
+    "dtmi:com:willowinc:QuantitySensor;1"
+  ],
+  "contents": [
+
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
